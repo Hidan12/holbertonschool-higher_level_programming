@@ -8,4 +8,3 @@ def no_c(my_string):
         if my_string[i] == 'C':
             copy.remove('C')
     return s.join(copy)
-    
