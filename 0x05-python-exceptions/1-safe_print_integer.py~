@@ -1,0 +1,8 @@
+#!/usr/bin/python3
+def safe_print_integer(value):
+    a = 0
+    try:
+        a = a + value
+    except:
+        return(False)
+    return(True)
