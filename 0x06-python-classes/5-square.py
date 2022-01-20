@@ -31,7 +31,10 @@ class Square:
         a = int(self.__size)
         b = 0
         c = 0
-        for b in range(a):
-            for c in range(a):
-                print("#", end="")
+        if a != 0:
+            for b in range(a):
+                for c in range(a):
+                    print("#", end="")
+                print("")
+        else:
             print("")
