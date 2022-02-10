@@ -2,6 +2,8 @@
 """
     base.py module
 """
+
+
 class Base:
     """ Base class"""
 
