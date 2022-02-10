@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+"""
+    base.py module
+"""
 from models.base import Base
 
 
